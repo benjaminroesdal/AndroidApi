@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UNa8n1vtVNiTeZNrtQqQbCIl0IeUUzqctgGcy2DiS1g=",
+  "Source": "NativeAppApi",
+  "BasePath": "_content/NativeAppApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
