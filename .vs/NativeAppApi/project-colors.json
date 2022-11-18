@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1ab46187-e783-42d3-9df9-ee9888cc6e66": {
+      "ProjectGuid": "1ab46187-e783-42d3-9df9-ee9888cc6e66",
+      "DisplayName": "NativeAppApi",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

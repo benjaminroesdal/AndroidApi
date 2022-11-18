@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\benja\\Documents\\NativeAppApi\\NativeAppApi.csproj": {}
+    "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\AndroidApi\\NativeAppApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\benja\\Documents\\NativeAppApi\\NativeAppApi.csproj": {
+    "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\AndroidApi\\NativeAppApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benja\\Documents\\NativeAppApi\\NativeAppApi.csproj",
+        "projectUniqueName": "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\AndroidApi\\NativeAppApi.csproj",
         "projectName": "NativeAppApi",
-        "projectPath": "C:\\Users\\benja\\Documents\\NativeAppApi\\NativeAppApi.csproj",
-        "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benja\\Documents\\NativeAppApi\\obj\\",
+        "projectPath": "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\AndroidApi\\NativeAppApi.csproj",
+        "packagesPath": "C:\\Users\\Benjamin Roesdal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\AndroidApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Benjamin Roesdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,8 +27,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\Benjamin Roesdal\\Desktop\\DevNugets": {},
+          "C:\\workspace\\.NoitsoNugets": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/noitso/auth/ab8a6c89-6b8b-47b2-a088-6eedc01f11af/api/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -56,8 +59,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -69,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -57,3 +57,30 @@ C:\Users\benja\Documents\NativeAppApi\obj\Debug\net6.0\refint\NativeAppApi.dll
 C:\Users\benja\Documents\NativeAppApi\obj\Debug\net6.0\NativeAppApi.pdb
 C:\Users\benja\Documents\NativeAppApi\obj\Debug\net6.0\NativeAppApi.genruntimeconfig.cache
 C:\Users\benja\Documents\NativeAppApi\obj\Debug\net6.0\ref\NativeAppApi.dll
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\bin\Debug\net6.0\appsettings.json
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\bin\Debug\net6.0\NativeAppApi.exe
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\bin\Debug\net6.0\NativeAppApi.deps.json
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\bin\Debug\net6.0\NativeAppApi.runtimeconfig.json
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\bin\Debug\net6.0\NativeAppApi.dll
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\bin\Debug\net6.0\ref\NativeAppApi.dll
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\bin\Debug\net6.0\NativeAppApi.pdb
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\obj\Debug\net6.0\NativeAppApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\obj\Debug\net6.0\NativeAppApi.AssemblyInfoInputs.cache
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\obj\Debug\net6.0\NativeAppApi.AssemblyInfo.cs
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\obj\Debug\net6.0\NativeAppApi.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\obj\Debug\net6.0\NativeAppApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\obj\Debug\net6.0\NativeAppApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\obj\Debug\net6.0\scopedcss\bundle\NativeAppApi.styles.css
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\obj\Debug\net6.0\NativeAppApi.csproj.CopyComplete
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\obj\Debug\net6.0\NativeAppApi.dll
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\obj\Debug\net6.0\ref\NativeAppApi.dll
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\obj\Debug\net6.0\NativeAppApi.pdb
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\obj\Debug\net6.0\NativeAppApi.genruntimeconfig.cache
+C:\Users\Benjamin Roesdal\Documents\GitHub\AndroidApi\obj\Debug\net6.0\NativeAppApi.csproj.AssemblyReference.cache

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using NativeAppApi.Models;
 
 namespace NativeAppApi.Controllers
 {
@@ -22,7 +23,7 @@ namespace NativeAppApi.Controllers
         }
 
         [HttpGet]
-        public ImageReponse GetAll()
+        public ImageResponse GetAll()
         {
             var result = _imageManager.GetAll();
             return result;
@@ -30,7 +31,3 @@ namespace NativeAppApi.Controllers
     }
 }
 
-public class testDto
-{
-    public string imageString { get; set; }
-}

@@ -1,28 +1,38 @@
 ﻿using System.Drawing.Imaging;
 using System.IO;
-using static System.Net.Mime.MediaTypeNames;
+using System.Net.Mime;
+using NativeAppApi.Models;
 
 namespace NativeAppApi
 {
     public class ImageManager
     {
+        /// <summary>
+        /// Saves picture to local folder with random int name.
+        /// </summary>
+        /// <param name="imageString"></param>
         public void SavePicture(string imageString)
         {
             string filePath = $"Images/{RndNumber()}.jpg";
+            //Replacing spaces with + -- this was an issue when posting base64 as querystring, it would sometimes newline which would create a space, and invalidated the data as base64.
             var formattedString = imageString.Replace(" ", "+");
             File.WriteAllBytes(filePath, Convert.FromBase64String(formattedString));
         }
 
-        public ImageReponse GetAll()
+        /// <summary>
+        /// Reads all images in images folder locally. 
+        /// </summary>
+        /// <returns>ImageResponse object with array of images.</returns>
+        public ImageResponse GetAll()
         {
-            var imageResp = new ImageReponse();
-            imageResp.Images = new List<Image>();
+            var imageResp = new ImageResponse();
+            imageResp.Images = new List<ImageObj>();
             var pictures = Directory.GetFiles("Images", "*.*", SearchOption.AllDirectories).ToList();
             foreach (var picture in pictures)
             {
                 var byteArray = ReadPicture(picture);
                 var tempString = Convert.ToBase64String(byteArray);
-                imageResp.Images.Add(new Image { ImageBase64= tempString });
+                imageResp.Images.Add(new ImageObj() { ImageBase64= tempString });
             }
             return imageResp;
         }
@@ -45,15 +55,6 @@ namespace NativeAppApi
             return data;
         }
 
-
-
-        public string ImageToBase64()
-        {
-            byte[] imageArray = System.IO.File.ReadAllBytes(@"IMG_2003.png");
-            string base64ImageRepresentation = Convert.ToBase64String(imageArray);
-            return base64ImageRepresentation;
-        }
-
         public int RndNumber()
         {
             Random rnd = new Random();
@@ -61,14 +62,4 @@ namespace NativeAppApi
             return randomNum;
         }
     }
-}
-
-public class ImageReponse
-{
-    public List<Image> Images { get; set; }
-}
-
-public class Image
-{
-    public string ImageBase64 { get; set; }
 }
